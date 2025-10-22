@@ -1,21 +1,20 @@
 {
-  "name": "Flora's Store",
-  "short_name": "FloraStore",
-  "start_url": "./index.html",
-  "display": "standalone",
-  "background_color": "#ffffff",
-  "theme_color": "#2563eb",
-  "description": "Flora's Store \u2014 simple offline POS",
+  "short_name": "FloraPOS",
+  "name": "Flora's Store POS",
   "icons": [
     {
-      "src": "icon-192x192.png",
+      "src": "/icon-192.png",
       "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "icon-512x512.png",
+      "src": "/icon-512.png",
       "sizes": "512x512",
       "type": "image/png"
     }
-  ]
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#f9d5e1",
+  "background_color": "#ffffff"
 }
